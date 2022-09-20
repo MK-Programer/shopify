@@ -1,0 +1,25 @@
+To create a laravel project:
+laravel new project-name
+To run:
+php artisan serve
+To add a model:
+php artisan make:model Product
+To add a controller:
+php artisan make:controller ProductsController
+To add a migration:
+php artisan make:migration create_products_table --create=products
+php artisan migrate-->To make the effect
+If fields is missed and want to be added to a table:
+php artisan make:migration add_fields_to_products_table --table=products
+To access sth in storage in resources:
+php artisan storage:link
+CMD to create authentication:
+php artisan ui:auth
+To create a middleware to give access:
+php artisan make:middleware RestrictAccess
+To refresh the db tables:
+php artisan migrate:refresh
+
+https://www.youtube.com/watch?v=f-QK9rZvTBQ&list=PLrUNEklLHiKXTzdUY33z9gCU9P5sul6FQ&index=15&ab_channel=LITLE-CODE
+https://youtu.be/jPNRFkNGL60
+https://youtu.be/-dehUeiz4ew
